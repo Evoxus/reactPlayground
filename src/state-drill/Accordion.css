@@ -20,6 +20,17 @@ p {
   list-style: none;
 }
 
+.Accordion-item {
+  border: 1px solid grey;
+  border-radius: 3px;
+  box-sizing: border-box;
+  width: 250px;
+}
+
+.Accordion-content {
+  padding: 5px;
+}
+
 .Accordion-btn {
   box-sizing: border-box;
   margin: 0;
@@ -38,13 +49,6 @@ p {
 .Accordion-btn:active
 .Accordion-btn:focus {
   outline: none !important;
-}
-
-.Accordion-item {
-  border: 1px solid grey;
-  border-radius: 3px;
-  box-sizing: border-box;
-  width: 250px;
 }
 
 .Accordion-btn:hover {

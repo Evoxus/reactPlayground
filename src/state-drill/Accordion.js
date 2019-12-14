@@ -9,6 +9,7 @@ class Accordion extends React.Component {
 
   state = {
     currentSection: null,
+    visible: false
   }
 
   handleButtonClick(index) {
@@ -30,7 +31,7 @@ class Accordion extends React.Component {
           onClick={() => this.handleButtonClick(index)}>
           {section.title}
         </button>
-        {(currentSection === index) && <p>{section.content}</p>}
+        {(currentSection === index) ? <p className='Accordion-content'>{section.content}</p> : null}
       </li>
     )
   }
