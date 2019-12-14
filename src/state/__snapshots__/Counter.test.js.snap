@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Counter /> renders the UI as expected 1`] = `
+<div
+  className="component"
+>
+  <h2>
+    Counter
+  </h2>
+  <p>
+    The current count is: 
+    0
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    Add 1
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    Reset
+  </button>
+</div>
+`;
